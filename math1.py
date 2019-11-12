@@ -1,0 +1,12 @@
+#print('Introduceti coordonatele centrului cercului')
+#print ('x=')
+#x = float(input())
+#print ('y=' )
+#y = float (input())
+#print ('z=' )
+#z = float (input())
+import math
+print('Introduceti raza cercului')
+r = float(input())
+S = math.pi * pow(r, 2)
+print('Aria cercului este ' + str(S)) 

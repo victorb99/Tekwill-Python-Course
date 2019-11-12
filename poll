@@ -1,0 +1,6 @@
+print('Cum te numesti?')
+input()
+print('Ce varsta ai?')
+input()
+print('Care e ocupatia ta?')
+input()

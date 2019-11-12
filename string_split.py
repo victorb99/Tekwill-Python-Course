@@ -1,0 +1,5 @@
+print('Introduceti denumirea fisierului')
+filename = input()
+listfilename = filename.split('.')
+extension = listfilename.pop()
+print('Extensia fisierului este de tip',extension)
