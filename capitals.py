@@ -9,7 +9,7 @@ def letters_count():
             count_lower = count_lower + 1 
         elif (i.isupper()):
             count_upper = count_upper + 1
-    print('There are', count_upper, ' uppercase letters')
+    print('There are {} uppercase letters'.format(count_upper))
     print('There are', count_lower, ' lowercase letters')
 
 letters_count()
